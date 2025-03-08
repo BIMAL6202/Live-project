@@ -20,7 +20,7 @@ const EducationDetails = ()=>{
       };
       let mydata={type:"education",info:userinfo}
        dispatch(mydata);
-       alert("Your Education details saved successfully...");
+       swal("Save Success","Your Education details saved successfully...","success");
    }
    return(
       <div className="container mt-4">

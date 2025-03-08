@@ -109,7 +109,7 @@ const FinalPreview= ()=>{
 
             <div className="col-xl-6 mb-5">
                   <div className="card border-0 shadow-lg">
-                      <div className="card card-header bg-info text-white">Expirence Details</div>
+                      <div className="card card-header bg-info text-white">Experience Details</div>
                       <div className="card card-body">
                         <table className="table">
                           <tbody>

@@ -12,7 +12,7 @@ const Skills =()=>{
         };
         let mydata={type:'skill',info:userinfo}
         dispatch(mydata);
-        alert("Your skills information saved successfully...");
+        swal("Save Success","Your Skills details saved successfully...","success");
     }
   return(
     <div className="container mt-4">

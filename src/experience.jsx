@@ -14,7 +14,7 @@ const Expirence = ()=>{
         };
         let mydata={type:"expirence",info:userinfo}
         dispatch(mydata);
-        alert("Your expirence data saved successfully");
+        swal("Save Success","Your Experience details saved successfully...","success");
     }
   return(
     <div className="container mt-4">

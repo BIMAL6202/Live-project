@@ -19,7 +19,7 @@ const Project=()=>{
         };
         let mydata={type:"project",info:userinfo}
         dispatch(mydata);
-        alert("Your Project details saved successfully....")
+        swal("Save Success","Your Project details saved successfully...","success");
     }
  return(
    <div className="container mt-4">
@@ -56,12 +56,8 @@ const Project=()=>{
                                <div className="text-center pb-2">
                                  <button className="btn btn-danger me-3" onClick={save}> Save & Contiue </button>
                                </div>
-
-
-
                            </div>
                    </div>
-                   
                </div>
            </div>
        <div className="col-xl-3 mb-4"></div>

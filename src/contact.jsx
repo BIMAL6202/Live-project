@@ -20,7 +20,7 @@ const ContactDetails = ()=>{
         };
         let mydata={type:"contact",info:userinfo}
          dispatch(mydata);
-         alert("Your Contact details saved successfully...");
+         swal("Save Success","Your Contact details saved successfully...","success");
     }
   return(
     <div className="container mt-4">
