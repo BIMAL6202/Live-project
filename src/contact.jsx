@@ -1,6 +1,8 @@
 import LeftNav from "./navigation";
 import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
+import swal from 'sweetalert';
+
 const ContactDetails = ()=>{
     let contactdata=useSelector(state=>state.MyContact);
     let [mobile,setmobile]=useState(contactdata.mobile);

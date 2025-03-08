@@ -1,6 +1,8 @@
 import LeftNav from "./navigation";
 import { useSelector,useDispatch } from "react-redux";
 import { useState } from "react";
+import swal from 'sweetalert';
+
 const Project=()=>{
     let projectdata=useSelector(state=>state.MyProject)
 

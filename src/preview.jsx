@@ -124,8 +124,8 @@ const FinalPreview= ()=>{
                     </div>  
             </div>
 
-            <div className="col-xl-12 text-center">
-               <button className="btn btn-outline-danger">Submit My Details</button>
+            <div className="col-xl-12 text-center mb-5">
+               <button className="btn btn-danger">Submit My Details</button>
             </div>
        </div>
     </div>

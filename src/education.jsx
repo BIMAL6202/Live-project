@@ -1,6 +1,8 @@
 import LeftNav from "./navigation";
 import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
+import swal from 'sweetalert';
+
 const EducationDetails = ()=>{
    let educationdata=useSelector(state=>state.MyEducation);
    let [highEdu,setEdu]=useState(educationdata.highestEdu);

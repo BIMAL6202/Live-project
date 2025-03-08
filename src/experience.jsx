@@ -1,6 +1,8 @@
 import LeftNav from "./navigation";
 import { useSelector,useDispatch } from "react-redux";
 import { useState } from "react";
+import swal from 'sweetalert';
+
 const Expirence = ()=>{
     let expdata=useSelector(state=>state.MyExpirence);
     let[totalexp,setTotalexp]=useState(expdata.totalexp);
